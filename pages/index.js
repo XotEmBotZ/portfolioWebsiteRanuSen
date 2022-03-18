@@ -37,127 +37,127 @@ export default function Home() {
               <tr>
                 <th>HTML</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
               </tr>
               <tr>
                 <th>CSS</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
               </tr>
               <tr>
                 <th>JS</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
               </tr>
               <tr>
                 <th>Python</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
               </tr>
               <tr>
                 <th>Dart</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
               </tr>
               <tr>
                 <th>C/C++</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
               </tr>
               <tr>
                 <th>Java</th>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                  <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
                 <td>
-                  <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                  <i className={`material-icons ${style.tableRedCell}`} >error</i>
                 </td>
               </tr>
             </table>
@@ -178,73 +178,73 @@ export default function Home() {
                 <tr>
                   <th>Django</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                 </tr>
                 <tr>
                   <th>ReactJs</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                 </tr>
                 <tr>
                   <th>NextJs</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                 </tr>
                 <tr>
                   <th>Flutter</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                 </tr>
               </table>
@@ -265,91 +265,91 @@ export default function Home() {
                 <tr>
                   <th>Website Design</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                 </tr>
                 <tr>
                   <th>Website Development</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                 </tr>
                 <tr>
                   <th>PSD to HTML</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                 </tr>
                 <tr>
                   <th>Data Scraping</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                 </tr>
                 <tr>
                   <th>Web Researcs</th>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableGreenCell}`} >verified</i>
+                    <i className={`material-icons ${style.tableGreenCell}`} >verified</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                   <td>
-                    <i class={`material-icons ${style.tableRedCell}`} >error</i>
+                    <i className={`material-icons ${style.tableRedCell}`} >error</i>
                   </td>
                 </tr>
               </table>
