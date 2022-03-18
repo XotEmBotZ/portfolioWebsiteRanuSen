@@ -1,0 +1,29 @@
+.nav{
+    padding: 2mm;
+    
+}
+
+.navUl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.navUlLi{
+    padding:0mm 1mm;
+    list-style: none;
+    font-family: var(--font1);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.navUlLi a{
+    text-decoration: none;
+    color: black;
+}
+
+.navUlLi a:hover{
+    color: rgb(51, 51, 51);
+}
