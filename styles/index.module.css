@@ -1,3 +1,8 @@
+.section{
+    height: 100vh;
+    padding: 4rem 3rem;
+}
+
 .welcomeSection{
     background-color: var(--cl3);
     min-height: 100vh;
@@ -15,7 +20,7 @@
     font-size: 1.8rem;
 }
 
-.welcomeText .welcomeText{
+.welcomeTextW{
     display: block;
     font-size: 3rem;
     width: fit-content;
@@ -24,10 +29,10 @@
     transition: all 0.3s ease-in-out;
 }
 
-.welcomeText .welcomeText::after{
+.welcomeTextW::after{
     position: absolute;
     display: inline-block;
-    left: 0;
+    left: -1px;
     top: 0;
     content: "";
     width: 3px;
@@ -36,7 +41,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.welcomeText:hover .welcomeText::after{
+.welcomeText:hover .welcomeTextW::after{
     position: absolute;
     display: inline-block;
     left: 0;
@@ -48,7 +53,77 @@
     background-color: var(--cl2);
 }
 
-.welcomeText:hover .welcomeText{
+.welcomeText:hover .welcomeTextW{
     transform:translateX(-1rem) translateY(-0.5rem);
 }
 
+.skillSection{
+    background-color: var(--cl3);
+}
+
+.sectHead{
+    font-family: var(--font1);
+    color: var(--cl5);
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.sectHead2{
+    font-family: var(--font1);
+    color: var(--cl5);
+}
+
+.tables{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.tables *{
+    color: var(--cl5);;
+}
+
+.tables > .tableSect .sectHead2{
+    font-size: 2.2rem;
+}
+
+.tables > .tableSect .sectTable {
+    margin-top: 2rem;
+}
+
+.tables > .tableSect .sectTable *{
+    text-align: center;
+}
+
+.tables > .tableSect .sectTable *{
+    margin: 0 2rem;
+}
+
+.tables > .tableSect .sectTable tr *{
+    padding: 0.2rem;
+}
+
+.tables > .tableSect .sectTable th{
+    font-size: 1.5rem;
+    font-family: var(--font2);
+}
+
+.tables .tableSect .sectTable > tr{
+    transition: all 0.3s ease-in-out;
+}
+
+.tables .tableSect .sectTable > tr:hover{
+    transform: scale(1.1);
+}
+
+.tables .tableSect .sectTable > tr:hover .tableRedCell{
+    color: red;
+}
+
+.tables .tableSect .sectTable > tr:hover .tableGreenCell{
+    color: Green;
+}
