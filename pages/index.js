@@ -7,7 +7,9 @@ export default function Home() {
     <>
       <section id="welcome" className={`${style.welcomeSection} ${style.section}`}>
         <div className={style.welcomeImage}>
-          {/* <Image/> */}
+          <div>
+            <Image src="/profilePicture.png" alt="Prifile picture" width={960} height={1280} className={style.welcomeImageClass}/>
+          </div>
         </div>
         <div className={style.welcomeText}>
           <span className={style.welcomeTextW}>Welcome,</span>

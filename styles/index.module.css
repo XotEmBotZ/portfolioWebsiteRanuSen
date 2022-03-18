@@ -11,6 +11,44 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: 'img text';
+        justify-items: start;
+    align-items: end;
+}
+
+.welcomeImage{
+    width: 25rem;
+    border-radius: 3rem;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.welcomeImage > div{
+    filter: drop-shadow(2rem -0.8rem var(--cl1));
+    transition: all 0.3s ease-in-out;
+}
+
+.welcomeImage:hover > div{
+    filter: drop-shadow(2rem -0.8rem var(--cl2));
+}
+
+.welcomeImageClass{
+    border-radius: 3rem;
+    filter:hue-rotate(190deg) grayscale(0.8);
+    transition: all 0.3s ease-in-out;    
+}
+
+.welcomeImageClass:hover{
+    filter:hue-rotate(0deg) grayscale(0.5);
+}
+
+.welcomeImage:hover{
+    transform: translateY(-1rem) translateX(1rem) rotate(5deg);
+}
+
+.welcomeImage:hover>div>img{
+    filter: hue-rotate(0deg) grayscale(0.5);
 }
 
 .welcomeText{
@@ -89,6 +127,7 @@
 
 .tables > .tableSect .sectHead2{
     font-size: 2.2rem;
+    text-decoration: underline;
 }
 
 .tables > .tableSect .sectTable {
@@ -100,7 +139,7 @@
 }
 
 .tables > .tableSect .sectTable *{
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .tables > .tableSect .sectTable tr *{
@@ -126,4 +165,47 @@
 
 .tables .tableSect .sectTable > tr:hover .tableGreenCell{
     color: Green;
+}
+
+.sideTable .tableSect+.tableSect{
+    margin: 3rem 0;
+}
+
+.tableSect .sectTable th{
+    font-family: var(--font2);
+}
+
+.sideTable .tableSect .sectHead2{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.sideTable .tableSect .sectTable{
+    font-size: 1.2rem;
+}
+
+.sideTable .tableSect .sectTable *{
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.tableSect{
+    transition: all 0.3s ease-in-out;
+}
+
+.tableSect:hover{
+    transform: scale(1.1);
+}
+
+.tableSect:hover::before{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cl1);
+    z-index: -4;
+    border-radius: 2rem;
 }
