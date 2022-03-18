@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&family=Varela+Round&display=swap');
 
 :root{
+    /* Fonts */
     --font1 : 'Nova Round', cursive;
     --font2 : 'Varela Round', sans-serif;
+
+    /* Colors */
+    --cl1 : #324BD9 ; 
+    --cl2 : #4E63D9 ; 
+    --cl3 : #212940 ; 
+    --cl4 : #5C6273 ; 
+    --cl5 : #F2F2F2 ; 
 }
 
 *{

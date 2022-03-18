@@ -1,6 +1,18 @@
 .nav{
     padding: 2mm;
-    
+    background-color: var(--cl2);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 0.5mm 0.5mm 1mm var(--cl3);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav:hover{
+    box-shadow: 1mm 1mm 1mm var(--cl3);
 }
 
 .navUl{
@@ -12,18 +24,24 @@
 }
 
 .navUlLi{
-    padding:0mm 1mm;
+    padding:0mm 3mm;
     list-style: none;
     font-family: var(--font1);
     font-size: 1.3em;
-    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    /* font-weight: bold; */
+}
+
+.navUlLi:hover{
+    font-size: 1.4rem;
 }
 
 .navUlLi a{
     text-decoration: none;
-    color: black;
+    color: var(--cl5);
+    transition: all 0.3s ease-in-out;
 }
 
 .navUlLi a:hover{
-    color: rgb(51, 51, 51);
+    color: var(--cl3);
 }
