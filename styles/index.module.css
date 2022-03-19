@@ -1,5 +1,5 @@
 .section{
-    height: 100vh;
+    min-height: 100vh;
     padding: 4rem 3rem;
     overflow: auto;
 }
@@ -123,13 +123,14 @@
     align-content: center;
     align-items: flex-start;
     justify-content: space-around;
-    height: 80%;
+    /* height: 80%; */
 }
 
 .sectTable{
     padding: 5mm;
     border-radius: 2rem;
     transition: all 0.2s ease-in-out;
+    table-layout: fixed;
 }
 
 .sectTable tr{
@@ -159,6 +160,7 @@
 .sectTable *{
     color: var(--cl5);
     text-align: center;
+    word-wrap: break-word;
 }
 
 .sectTable:hover{
@@ -168,10 +170,12 @@
 .tableSect{
     transition: all 0.2s ease-in-out;
     border-radius: 2rem;
+    margin-top: 2rem;
 }
 
 .tableSect:hover{
     background-color: var(--cl3);
+    transform: translateY(-1rem);
 }
 
 .sectTable th{
@@ -184,7 +188,7 @@
     background-color: var(--cl3);
 }
 
-@media only screen and (max-width : 412px){
+@media only screen and (max-width : 912px){
     .welcomeSection{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2,1fr);
@@ -196,14 +200,19 @@
         align-items: start;
         align-content: center;
     }
-
+    
+    .welcomeImage{
+        width: 80vw;
+    }
+    
     .section{
         padding:4rem 1.2rem 0rem 1rem;
         height: fit-content;
         min-height: 100vh;
     }
-
+    
     .tables{
         flex-direction: column;
+        margin-left: 100%;
     }
 }
