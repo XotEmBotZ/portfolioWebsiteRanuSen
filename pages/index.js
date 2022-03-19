@@ -357,6 +357,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="previousProjects" className={`${style.section} ${style.prevoiusProjectsSection}`}>
+        <h2 className={style.sectHead}>My Previous Projects</h2>
+      </section>
     </>
   )
 }
