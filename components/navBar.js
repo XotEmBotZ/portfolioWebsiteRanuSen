@@ -6,8 +6,7 @@ export default function NavBar() {
         <nav id="navBar" className={styles.nav}>
             <ul id="navUl" className={styles.navUl}>
                 <li className={styles.navUlLi}><Link href="/">Home</Link></li>
-                <li className={styles.navUlLi}><Link href="/about">About</Link></li>
-                <li className={styles.navUlLi}><Link href="/contact">Contact</Link></li>
+                <li className={styles.navUlLi}><Link href="/projects">Projects</Link></li>
             </ul>
         </nav>
     )

@@ -375,11 +375,17 @@ export default function Home(props) {
       <section id="previousProjects" className={`${style.section} ${style.prevoiusProjectsSection}`}>
         <h2 className={style.sectHead}>My Previous Projects</h2>
         <div className={style.projCards}>
-          <div className={style.projectCard}>
-            <h3 className={style.projCardTitle}>Dummy Title</h3>
-            <p className={style.projCardDesc}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, laudantium tempore praesentium quis itaque odio consequatur cupiditate. Soluta, quisquam repellendus.</p>
-            <Link href="/"><a className={style.projCardBtn}>More info!</a></Link>
-          </div>
+          {
+            props.map((element) => {
+              return (
+                <div className={style.projectCard} key={element.slug}>
+                  <h3 className={style.projCardTitle}>{element.shortTitle}</h3>
+                  <p className={style.projCardDesc}>{element.description.substring(0,275)+"..."}</p>
+                  <Link href={"project/"+element.slug}><a className={style.projCardBtn}>More info!</a></Link>
+                </div>
+              )
+            })
+          }
         </div>
       </section>
     </>
