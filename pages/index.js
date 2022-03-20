@@ -1,8 +1,10 @@
 import style from "../styles/index.module.css"
 import Image from "next/image"
+import Link from "next/link"
 
 
-export default function Home() {
+export default function Home(props) {
+  props = props.props
   return (
     <>
       <section id="welcome" className={`${style.welcomeSection} ${style.section}`}>
@@ -372,7 +374,23 @@ export default function Home() {
 
       <section id="previousProjects" className={`${style.section} ${style.prevoiusProjectsSection}`}>
         <h2 className={style.sectHead}>My Previous Projects</h2>
+        <div className={style.projCards}>
+          <div className={style.projectCard}>
+            <h3 className={style.projCardTitle}>Dummy Title</h3>
+            <p className={style.projCardDesc}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, laudantium tempore praesentium quis itaque odio consequatur cupiditate. Soluta, quisquam repellendus.</p>
+            <Link href="/"><a className={style.projCardBtn}>More info!</a></Link>
+          </div>
+        </div>
       </section>
     </>
   )
+}
+
+
+export async function getServerSideProps(context) {
+  var props = await fetch('http://localhost:3000/api/getProjects')
+  props = await props.json()
+  return {
+    props: { "props": props },
+  }
 }

@@ -1,6 +1,6 @@
 .section{
     min-height: 100vh;
-    padding: 4rem 3rem;
+    padding: 3rem 3rem;
     overflow: auto;
 }
 
@@ -186,6 +186,68 @@
 
 .prevoiusProjectsSection{
     background-color: var(--cl3);
+}
+
+.projCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+.projectCard{
+    width: min(25rem,80vw);
+    height: max(25rem,fit-content);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cl2);
+    box-shadow: 1mm 1mm 1mm rgba(0, 0, 0, 0.479);
+    transition: all 0.2s ease-in-out;
+}
+
+.projectCard:hover{
+    transform: translateY(-1rem) scale(1.1);
+    box-shadow: 2mm 2mm 2mm rgba(0, 0, 0, 0.479);
+}
+
+.projCardTitle{
+    color: var(--cl5);
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+
+.projCardDesc{
+    color: white;
+    font-family: var(--font2);
+    width: 100%;
+    text-align: center;
+}
+
+.projCardBtn{
+    color: var(--cl5);
+    font-family: var(--font1);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background-color: var(--cl3);
+    align-self: flex-end;
+    margin-top: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.projCardBtn:hover{
+    background-color: var(--cl4);
+    box-shadow: 0.5mm 0.5mm 1mm rgba(0, 0, 0, 0.192);
 }
 
 @media only screen and (max-width : 912px){

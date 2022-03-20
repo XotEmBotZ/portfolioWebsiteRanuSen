@@ -1,0 +1,21 @@
+{
+    "title":"Data Scraping from website",
+    "shortTitl":"Data Scraping",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis nec urna eu blandit. Nulla facilisi. Nunc nec metus tristique, posuere neque egestas, pellentesque massa. Integer laoreet tempor felis vitae consequat. Mauris vitae facilisis dui. Proin mollis leo augue, sit amet scelerisque justo placerat sed. Sed fermentum semper varius. Nulla mattis eu dui sit amet faucibus. Nulla dignissim sollicitudin lobortis. Aliquam vel odio vel lectus viverra ultrices vitae sit amet nunc. Praesent condimentum diam ante, nec rutrum arcu ultricies non. Cras sit amet egestas turpis, vel porttitor enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed nulla nulla. Nam a metus sem. Phasellus tempus porta tellus, vel porttitor tortor tincidunt quis. Donec nec lectus molestie, sagittis tortor ut, bibendum risus. Proin fringilla consequat metus, id blandit odio tincidunt non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "programingLanguages":[
+        "Python",
+        "JavaScript"
+    ],
+    "skills":[
+        "Data scraping",
+        "Algorithm"
+    ],
+    "frameworksModules":[
+        "requests",
+        "Beautiful Soup",
+        "Selenium"
+    ],
+    "date":"25th January 2020",
+    "client":"Mr. Jonh Carter",
+    "slug":"dataScraping"
+}
