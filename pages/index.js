@@ -1,7 +1,7 @@
 import style from "../styles/index.module.css"
 import Image from "next/image"
 import Link from "next/link"
-
+import * as fs from 'fs'
 
 export default function Home(props) {
   props = props.props
@@ -394,8 +394,17 @@ export default function Home(props) {
 
 
 export async function getServerSideProps(context) {
-  var props = await fetch('http://localhost:3000/api/getProjects')
-  props = await props.json()
+  let projects=[];
+    let fileNames = await fs.promises.readdir('./projects')
+    for (const iterator of fileNames) {
+        var data=await JSON.parse(await fs.promises.readFile('./projects/'+iterator))
+        projects.push({
+            shortTitle:data.shortTitle,
+            description:data.description,
+            slug:data.slug
+        })
+    }
+    var props=projects
   return {
     props: { "props": props },
   }
